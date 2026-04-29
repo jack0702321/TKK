@@ -307,7 +307,7 @@ public class DayReportAML152 {
 					if(block4.equals("907")) {block4 = "900";}
 
 					if(!dao.existBRA(block4, con)) {
-						writeOut(fw0, "AML152B" , block0 + "|" + block2 + "|" + block3 + "|" + block4 + "|" + block5 + "|" + block6 + "|告誡負責人名單");
+						writeOut(fw0, "AML152B" , block0 + "|" + block2 + "|" + block3 + "|" + block4 + "|" + block5 + "|" + block6);
 						continue back;}
 					fB = new File("D:/dayRpt/" + block4 + "AML152-B.DAT");
 					
@@ -377,7 +377,7 @@ public class DayReportAML152 {
 					if(block4.equals("907")) {block4 = "900";}
 
 					if(!dao.existBRA(block4, con)) {
-						writeOut(fw0, "AML152B" , block0 + "|" + block2 + "|" + block3 + "|" + block4 + "|" + block5 + "|" + block6 + "|告誡聯名戶名單");
+						writeOut(fw0, "AML152B" , block0 + "|" + block2 + "|" + block3 + "|" + block4 + "|" + block5 + "|" + block6);
 						continue back;}
 					fB = new File("D:/dayRpt/" + block4 + "AML152-B.DAT");
 					
